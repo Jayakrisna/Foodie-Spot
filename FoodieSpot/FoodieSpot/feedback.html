@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback & Review - FOODIE SPOT</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('C:/Users/jayak/Downloads/FoodieSpot/FoodieSpot/RBG.jpg'); /* Replace with your background image URL */
+            background-size: cover;
+            background-position: center;
+            color: rgb(255, 255, 255);
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 150px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        section {
+            padding: 50px 20px;
+            margin: 20px;
+            background: rgba(3, 3, 3, 0.8);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: rgba(0, 0, 0, 0.7);
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .feedback-form {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .feedback-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .feedback-form input, 
+        .feedback-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.8);
+            color: black;
+        }
+
+        .feedback-form button {
+            background-color: #ffcc00;
+            color: black;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .feedback-form button:hover {
+            background-color: #ff9900;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\jayak\Downloads\FoodieSpot\FoodieSpot\logo.jpg" class="logo">
+        <h1>Feedback & Review</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="appetizers.html">Appetizers</a></li>
+                <li><a href="main-course.html">Main Course</a></li>
+                <li><a href="desserts.html">Desserts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>We Value Your Feedback!</h2>
+        <form class="feedback-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="5" required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delicious Recipes. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="feedback.html">Feedback & Review</a>
+        </div>
+    </footer>
+</body>
+</html>

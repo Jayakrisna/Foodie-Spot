@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Course - FOODIE SPOT</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('C:/Users/jayak/Downloads/FoodieSpot/FoodieSpot/RBG.jpg'); /* Replace with your background image URL */
+            background-size: cover;
+            background-position: center;
+            color: rgb(255, 255, 255);
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: rgba(0, 0, 0, 0.7);
+            position: relative;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 150px; /* Adjust the width as needed */
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: yellow; /* Changed to yellow */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00; /* Light yellow on hover */
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ffcc00;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 50px 20px;
+            margin: 20px;
+            background: rgba(3, 3, 3, 0.8);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .recipe {
+            margin: 20px;
+            display: inline-block;
+            width: calc(25% - 40px); /* Four recipes in a row */
+            vertical-align: top;
+        }
+
+        .recipe img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .recipe h3 {
+            color: aqua; /* Changed to aqua */
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: rgba(0, 0, 0, 0.7);
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" class="logo"> <!-- Replace with your logo image URL -->
+        <h1>Main Course</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="appetizers.html">Appetizers</a></li>
+                <li><a href="desserts.html">Desserts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Delicious Main Course Recipes</h2>
+        <div class="recipe">
+            <img src="fried-rice.jpg" alt="Fried Rice"> <!-- Replace with your image URL -->
+            <h3><a href="fried-rice.html" style="color: aqua; text-decoration: none;">Fried Rice</a></h3>
+            <p>A flavorful dish made with stir-fried rice, chicken, and vegetables.</p>
+        </div>
+        <div class="recipe">
+            <img src="sushi.jpg" alt="Sushi"> <!-- Replace with your image URL -->
+            <h3><a href="sushi.html" style="color: aqua; text-decoration: none;">Sushi</a></h3>
+            <p>Delicate rolls of vinegared rice filled with fresh seafood and vegetables.</p>
+        </div>
+        <div class="recipe">
+            <img src="biriyani.avif" alt="Biryani"> <!-- Replace with your image URL -->
+            <h3><a href="biryani.html" style="color: aqua; text-decoration: none;">Biryani</a></h3>
+            <p>Aromatic rice dish cooked with spices, meat, and saffron.</p>
+        </div>
+        <div class="recipe">
+            <img src="pizza.jpeg" alt="Pizza"> <!-- Replace with your image URL -->
+            <h3><a href="pizza.html" style="color: aqua; text-decoration: none;">Pizza</a></h3>
+            <p>Classic Italian dish topped with cheese, sauce, and your favorite toppings.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delicious Recipes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
